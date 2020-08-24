@@ -1,0 +1,9 @@
+ dpkg-buildpackage -us -uc -ui
+dpkg-buildpackage: info: source package dotnet-sdk-3.1
+dpkg-buildpackage: info: source version 3.1.107-1
+dpkg-buildpackage: info: source distribution UNRELEASED
+dpkg-buildpackage: info: source changed by Alistair Young <avatar@arkane-systems.net>
+ dpkg-source --before-build .
+dpkg-buildpackage: info: host architecture amd64
+dpkg-source: error: package/debian/control doesn't list any binary package
+dpkg-buildpackage: error: dpkg-source --before-build . subprocess returned exit status 25
