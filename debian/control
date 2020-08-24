@@ -1,0 +1,9 @@
+Source: dotnet-core-3.1
+Section: devel
+Priority: optional
+Maintainer: Alistair Young <avatar@arkane-systems.net>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.5.0
+Homepage: https://dotnet.microsoft.com/
+Vcs-Git: https://github.com/arkane-systems/dotnet-debian.git
+Vcs-Browser: https://github.com/arkane-systems/dotnet-debian
